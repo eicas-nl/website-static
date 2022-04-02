@@ -4,10 +4,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>EICAS European Institute for Contemporary Art and Science</title>
-		<link rel="stylesheet" href="https://www.eicas.nl/css/guest.css" type="text/css" media="screen">
-		<link rel="icon" href="https://www.eicas.nl/favicon.ico" sizes="any">
-		<link rel="icon" href="https://www.eicas.nl/icon.svg" type="image/svg+xml">
-		<link rel="apple-touch-icon" href="https://www.eicas.nl/apple-touch-icon.png">
+		<link rel="stylesheet" href="/css/guest.css" type="text/css" media="screen">
+		<link rel="icon" href="/favicon.ico" sizes="any">
+		<link rel="icon" href="/icon.svg" type="image/svg+xml">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	</head>
 	<body class="story-layout">
 				<header id="main-logo">
