@@ -31,9 +31,9 @@
 	<label for="menu-top"><div>menu<div></div></div></label>
 	<input id="menu-top" type="checkbox">
 	<ul id="main-menu-base">
-		<li class="submenu" id="menuitem-bb3b1ee8-cb55-4b81-bf7e-ac04d5c2fb97">
-		<label for="menu-bb3b1ee8-cb55-4b81-bf7e-ac04d5c2fb97">Te zien</label>
-		<input id="menu-bb3b1ee8-cb55-4b81-bf7e-ac04d5c2fb97" type="checkbox">
+		<li class="submenu" id="menuitem-219671ad-aa7b-4698-96e2-8e88ab14e452">
+		<label for="menu-219671ad-aa7b-4698-96e2-8e88ab14e452">Te zien</label>
+		<input id="menu-219671ad-aa7b-4698-96e2-8e88ab14e452" type="checkbox">
 		<ul>
 							<li><a href="/nu-te-zien">Nu te zien</a></li>
 									<li><a href="/vaste-collectie">Vaste collectie</a></li>
@@ -42,23 +42,23 @@
 							</ul>
 	</li>
 									<li><a href="/bezoek">Bezoek</a></li>
-									<li class="submenu" id="menuitem-a3d488a6-5dce-4ac3-b024-fb691aa8cc52">
-		<label for="menu-a3d488a6-5dce-4ac3-b024-fb691aa8cc52">Nieuws</label>
-		<input id="menu-a3d488a6-5dce-4ac3-b024-fb691aa8cc52" type="checkbox">
+									<li class="submenu" id="menuitem-0650029a-59dd-4c3f-986b-132491937289">
+		<label for="menu-0650029a-59dd-4c3f-986b-132491937289">Nieuws</label>
+		<input id="menu-0650029a-59dd-4c3f-986b-132491937289" type="checkbox">
 		<ul>
 							<li><a href="/nieuwsbrief">Nieuwsbrief</a></li>
 									<li><a href="/in-het-nieuws">In het nieuws</a></li>
 									<li><a href="/archief">Archief</a></li>
 							</ul>
 	</li>
-									<li class="submenu" id="menuitem-192f5894-85d4-40c2-9691-6e54b0ca1bea">
-		<label for="menu-192f5894-85d4-40c2-9691-6e54b0ca1bea">Over ons</label>
-		<input id="menu-192f5894-85d4-40c2-9691-6e54b0ca1bea" type="checkbox">
+									<li class="submenu" id="menuitem-44ad05c4-13a6-46a9-8746-7392b1166db2">
+		<label for="menu-44ad05c4-13a6-46a9-8746-7392b1166db2">Over ons</label>
+		<input id="menu-44ad05c4-13a6-46a9-8746-7392b1166db2" type="checkbox">
 		<ul>
 							<li><a href="/over-eicas">Over EICAS</a></li>
-									<li class="submenu" id="menuitem-b43c64ea-179a-45b9-8a71-62dabcc6faf0">
-		<label for="menu-b43c64ea-179a-45b9-8a71-62dabcc6faf0">Organisatie</label>
-		<input id="menu-b43c64ea-179a-45b9-8a71-62dabcc6faf0" type="checkbox">
+									<li class="submenu" id="menuitem-c59c39bd-8f91-44b9-ba3e-3841c18ba9ee">
+		<label for="menu-c59c39bd-8f91-44b9-ba3e-3841c18ba9ee">Organisatie</label>
+		<input id="menu-c59c39bd-8f91-44b9-ba3e-3841c18ba9ee" type="checkbox">
 		<ul>
 							<li><a href="/organisatie">Bestuur & medewerkers</a></li>
 									<li><a href="/anbi">Financieel</a></li>
@@ -369,12 +369,12 @@ ms.forEach(function(li){li.querySelector(':scope>label').addEventListener('click
 			}
 		}
 		const target = findTarget(img)
-		target.classList.add('p-b57f200d-85a9-46a8-94e4-743739d14958');
+		target.classList.add('p-18aab7c1-e504-49b8-8924-60639e39e405');
 
 		target.addEventListener('click', function (e) {
 			var img=e.target,d,h,ws,i,l,ow,oh;
 			if(!img.classList.contains('image-popup-art')){
-				while(!img.classList.contains('p-b57f200d-85a9-46a8-94e4-743739d14958'))img=img.parentElement;
+				while(!img.classList.contains('p-18aab7c1-e504-49b8-8924-60639e39e405'))img=img.parentElement;
 				img=img.querySelector('img.image-popup-art');
 			}
 			d=img.dataset;h=JSON.parse(d.imagePopupArtHs.replaceAll("'",'"'));
