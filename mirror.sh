@@ -8,5 +8,8 @@ for page in eicas2022-1 eicas2022-2 eicas2022-3 eicas2022-4 eicas2022-5 eicas202
     git add $page/index.html
 done
 
+curl https://tmp.eicas.nl | sed -e 's/tmp.eicas.nl/www.eicas.nl/g' > index.html
+git add index.html
+
 git add mirror.sh
 git commit
