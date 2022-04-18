@@ -154,12 +154,12 @@
 			}
 		}
 		const target = findTarget(img)
-		target.classList.add('p-9e5d0071-610f-4cf4-8c7f-5a154ec351b0');
+		target.classList.add('p-bb0453a8-5423-4331-a22e-e52191ac4fa8');
 
 		target.addEventListener('click', function (e) {
 			var img=e.target,d,h,ws,i,l,ow,oh;
 			if(!img.classList.contains('image-popup-art')){
-				while(!img.classList.contains('p-9e5d0071-610f-4cf4-8c7f-5a154ec351b0'))img=img.parentElement;
+				while(!img.classList.contains('p-bb0453a8-5423-4331-a22e-e52191ac4fa8'))img=img.parentElement;
 				img=img.querySelector('img.image-popup-art');
 			}
 			d=img.dataset;h=JSON.parse(d.imagePopupArtHs.replaceAll("'",'"'));
