@@ -31,9 +31,9 @@
 	<label for="menu-top"><div>menu<div></div></div></label>
 	<input id="menu-top" type="checkbox">
 	<ul id="main-menu-base">
-		<li class="submenu" id="menuitem-aef8e709-20f1-4f25-b013-89d3245156d6">
-		<label for="menu-aef8e709-20f1-4f25-b013-89d3245156d6">Te zien</label>
-		<input id="menu-aef8e709-20f1-4f25-b013-89d3245156d6" type="checkbox">
+		<li class="submenu" id="menuitem-fdab52e7-6662-40e6-8f36-f2a5dcf45452">
+		<label for="menu-fdab52e7-6662-40e6-8f36-f2a5dcf45452">Te zien</label>
+		<input id="menu-fdab52e7-6662-40e6-8f36-f2a5dcf45452" type="checkbox">
 		<ul>
 							<li><a href="/nu-te-zien">Nu te zien</a></li>
 									<li><a href="/vaste-collectie">Vaste collectie</a></li>
@@ -42,23 +42,23 @@
 							</ul>
 	</li>
 									<li><a href="/bezoek">Bezoek</a></li>
-									<li class="submenu" id="menuitem-145bcbd0-a638-4eaa-97a1-3aed68348654">
-		<label for="menu-145bcbd0-a638-4eaa-97a1-3aed68348654">Nieuws</label>
-		<input id="menu-145bcbd0-a638-4eaa-97a1-3aed68348654" type="checkbox">
+									<li class="submenu" id="menuitem-59731750-2dae-406b-8173-56d6c466e5b6">
+		<label for="menu-59731750-2dae-406b-8173-56d6c466e5b6">Nieuws</label>
+		<input id="menu-59731750-2dae-406b-8173-56d6c466e5b6" type="checkbox">
 		<ul>
 							<li><a href="/nieuwsbrief">Nieuwsbrief</a></li>
 									<li><a href="/in-het-nieuws">In het nieuws</a></li>
 									<li><a href="/archief">Archief</a></li>
 							</ul>
 	</li>
-									<li class="submenu" id="menuitem-5fde70ee-9286-4d80-8ee0-eea73bd34491">
-		<label for="menu-5fde70ee-9286-4d80-8ee0-eea73bd34491">Over ons</label>
-		<input id="menu-5fde70ee-9286-4d80-8ee0-eea73bd34491" type="checkbox">
+									<li class="submenu" id="menuitem-591f8da7-5cf6-4036-b610-fa938957e108">
+		<label for="menu-591f8da7-5cf6-4036-b610-fa938957e108">Over ons</label>
+		<input id="menu-591f8da7-5cf6-4036-b610-fa938957e108" type="checkbox">
 		<ul>
 							<li><a href="/over-eicas">Over EICAS</a></li>
-									<li class="submenu" id="menuitem-ebad6198-5090-4c01-97a3-0b81835a1b68">
-		<label for="menu-ebad6198-5090-4c01-97a3-0b81835a1b68">Organisatie</label>
-		<input id="menu-ebad6198-5090-4c01-97a3-0b81835a1b68" type="checkbox">
+									<li class="submenu" id="menuitem-26a6fe6e-1523-4198-81b3-4f6ca22059b8">
+		<label for="menu-26a6fe6e-1523-4198-81b3-4f6ca22059b8">Organisatie</label>
+		<input id="menu-26a6fe6e-1523-4198-81b3-4f6ca22059b8" type="checkbox">
 		<ul>
 							<li><a href="/organisatie">Bestuur & medewerkers</a></li>
 									<li><a href="/anbi">Financiën</a></li>
@@ -296,7 +296,7 @@
 </blockquote>
 
 <blockquote>
-<p>Fred Wagemans, artistiek adviseur EICAS in de Volkskrant, jan 2002</p>
+<p>Fred Wagemans, artistiek adviseur EICAS (<a href="https://www.volkskrant.nl/nieuws-achtergrond/dit-is-kunst-die-de-wereld-verbetert~baf2bb9b/">Volkskrant, jan 2002</a>)</p>
 
 <p><a href="https://www.eicas.nl/bezoek"><i>Bezoek Museum EICAS preview...</i></a></p>
 </blockquote>	</section>
@@ -383,12 +383,12 @@ ms.forEach(function(li){li.querySelector(':scope>label').addEventListener('click
 			}
 		}
 		const target = findTarget(img)
-		target.classList.add('p-b42577a6-b4f0-4dd0-ab59-5cce5eb97676');
+		target.classList.add('p-ff582c45-a708-49f7-b6ba-50eaaa605d27');
 
 		target.addEventListener('click', function (e) {
 			var img=e.target,d,h,ws,i,l,ow,oh;
 			if(!img.classList.contains('image-popup-art')){
-				while(!img.classList.contains('p-b42577a6-b4f0-4dd0-ab59-5cce5eb97676'))img=img.parentElement;
+				while(!img.classList.contains('p-ff582c45-a708-49f7-b6ba-50eaaa605d27'))img=img.parentElement;
 				img=img.querySelector('img.image-popup-art');
 			}
 			d=img.dataset;h=JSON.parse(d.imagePopupArtHs.replaceAll("'",'"'));
