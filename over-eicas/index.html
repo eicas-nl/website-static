@@ -31,9 +31,9 @@
 	<label for="menu-top"><div>menu<div></div></div></label>
 	<input id="menu-top" type="checkbox">
 	<ul id="main-menu-base">
-		<li class="submenu" id="menuitem-9ccdf535-6987-43ee-8f73-075115138200">
-		<label for="menu-9ccdf535-6987-43ee-8f73-075115138200">Te zien</label>
-		<input id="menu-9ccdf535-6987-43ee-8f73-075115138200" type="checkbox">
+		<li class="submenu" id="menuitem-f0bc3b81-f5f1-4113-8b5f-9124140c3939">
+		<label for="menu-f0bc3b81-f5f1-4113-8b5f-9124140c3939">Te zien</label>
+		<input id="menu-f0bc3b81-f5f1-4113-8b5f-9124140c3939" type="checkbox">
 		<ul>
 							<li><a href="/nu-te-zien">Nu te zien</a></li>
 									<li><a href="/vaste-collectie">Vaste collectie</a></li>
@@ -42,23 +42,23 @@
 							</ul>
 	</li>
 									<li><a href="/bezoek">Bezoek</a></li>
-									<li class="submenu" id="menuitem-394413b1-8cb4-428a-9b2c-5a3b8f4ccbb9">
-		<label for="menu-394413b1-8cb4-428a-9b2c-5a3b8f4ccbb9">Nieuws</label>
-		<input id="menu-394413b1-8cb4-428a-9b2c-5a3b8f4ccbb9" type="checkbox">
+									<li class="submenu" id="menuitem-5ddee33b-f20f-4585-87e8-1b1b21e525a3">
+		<label for="menu-5ddee33b-f20f-4585-87e8-1b1b21e525a3">Nieuws</label>
+		<input id="menu-5ddee33b-f20f-4585-87e8-1b1b21e525a3" type="checkbox">
 		<ul>
 							<li><a href="/nieuwsbrief">Nieuwsbrief</a></li>
 									<li><a href="/in-het-nieuws">In het nieuws</a></li>
 									<li><a href="/archief">Archief</a></li>
 							</ul>
 	</li>
-									<li class="submenu" id="menuitem-9dbf435f-06df-46bf-9eb3-b971cdcaced6">
-		<label for="menu-9dbf435f-06df-46bf-9eb3-b971cdcaced6">Over ons</label>
-		<input id="menu-9dbf435f-06df-46bf-9eb3-b971cdcaced6" type="checkbox">
+									<li class="submenu" id="menuitem-0f278035-3c89-4c65-ba81-a91b3e9c26a4">
+		<label for="menu-0f278035-3c89-4c65-ba81-a91b3e9c26a4">Over ons</label>
+		<input id="menu-0f278035-3c89-4c65-ba81-a91b3e9c26a4" type="checkbox">
 		<ul>
 							<li><a href="/over-eicas">Over EICAS</a></li>
-									<li class="submenu" id="menuitem-f6ae74a7-0ebe-4222-bf9e-9fcb96ca1ce8">
-		<label for="menu-f6ae74a7-0ebe-4222-bf9e-9fcb96ca1ce8">Organisatie</label>
-		<input id="menu-f6ae74a7-0ebe-4222-bf9e-9fcb96ca1ce8" type="checkbox">
+									<li class="submenu" id="menuitem-148c05a1-90b1-4ed4-a622-497396eb0761">
+		<label for="menu-148c05a1-90b1-4ed4-a622-497396eb0761">Organisatie</label>
+		<input id="menu-148c05a1-90b1-4ed4-a622-497396eb0761" type="checkbox">
 		<ul>
 							<li><a href="/organisatie">Bestuur & medewerkers</a></li>
 									<li><a href="/anbi">Financiën</a></li>
@@ -169,7 +169,13 @@
 
 <p>Een ticket biedt toegang tot de vaste collectie, de expositie en de bibliotheek. Daarnaast zijn er regelmatig verdiepende workshops en seminars. &nbsp;</p>
 
-<p>&nbsp;</p>
+<h2>Missie</h2>
+
+<p>EICAS wil non-figuratieve, hedendaagse kunst toegankelijk maken voor een breed (inter)nationaal publiek. Daartoe bieden we, naast de vaste collectie uit de Nul- en ZERO-beweging, wisselexposities van kunstwerken vanaf 1960. Omdat wij vinden dat kunst nooit op zichzelf staat, verbinden we kunst met wetenschap door het bieden van workshops, lezingen en publicaties.</p>
+
+<h2>Visie</h2>
+
+<p>EICAS wil mensen inspireren op basis van de filosofie van de Nul- en ZERO-beweging. EICAS is een plek waar bezoekers, kunstenaars, filosofen en wetenschappers elkaar ontmoeten. Waar grenzen verlegd worden. Een broedplaats waar belangrijke thema&rsquo;s van deze tijd, zoals kunstmatige intelligentie, identiteit en maatschappelijke veranderingen verkend worden.</p>
 
 <h2>Verhuizing Hegiusgebouw</h2>
 
@@ -257,12 +263,12 @@ ms.forEach(function(li){li.querySelector(':scope>label').addEventListener('click
 			}
 		}
 		const target = findTarget(img)
-		target.classList.add('p-4283e2b9-b1ef-46f3-9edd-0e21fffc1f16');
+		target.classList.add('p-182ebd73-b270-4977-a227-89d81dc7187c');
 
 		target.addEventListener('click', function (e) {
 			var img=e.target,d,h,ws,i,l,ow,oh;
 			if(!img.classList.contains('image-popup-art')){
-				while(!img.classList.contains('p-4283e2b9-b1ef-46f3-9edd-0e21fffc1f16'))img=img.parentElement;
+				while(!img.classList.contains('p-182ebd73-b270-4977-a227-89d81dc7187c'))img=img.parentElement;
 				img=img.querySelector('img.image-popup-art');
 			}
 			d=img.dataset;h=JSON.parse(d.imagePopupArtHs.replaceAll("'",'"'));
