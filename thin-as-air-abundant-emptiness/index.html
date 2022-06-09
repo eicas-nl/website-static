@@ -263,12 +263,12 @@ ms.forEach(function(li){li.querySelector(':scope>label').addEventListener('click
 			}
 		}
 		const target = findTarget(img)
-		target.classList.add('p-7d2a4a7d-9d0a-4450-aa06-f72c8ab20d1f');
+		target.classList.add('p-d37ab05c-4f89-449d-8688-4f499333188f');
 
 		target.addEventListener('click', function (e) {
 			var img=e.target,d,h,ws,i,l,ow,oh;
 			if(!img.classList.contains('image-popup-art')){
-				while(!img.classList.contains('p-7d2a4a7d-9d0a-4450-aa06-f72c8ab20d1f'))img=img.parentElement;
+				while(!img.classList.contains('p-d37ab05c-4f89-449d-8688-4f499333188f'))img=img.parentElement;
 				img=img.querySelector('img.image-popup-art');
 			}
 			d=img.dataset;h=JSON.parse(d.imagePopupArtHs.replaceAll("'",'"'));
