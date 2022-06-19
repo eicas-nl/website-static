@@ -75,9 +75,9 @@
 	</div>
 <main id="gallery-bidbook">
 	<article>
-	    <header>
-	    	<h1>Kunst en wetenschap</h1>
-	    </header>
+		<header>
+			<h1>Kunst en wetenschap</h1>
+		</header>
 						<section class="text">
 			<p>Toeval of niet? EICAS neemt, net als Alexander Hegius &ndash; humanist en naamgever van het museumgebouw - een unieke positie in door kunst en wetenschap met elkaar te verbinden.</p>
 
@@ -154,12 +154,12 @@
 			}
 		}
 		const target = findTarget(img)
-		target.classList.add('p-8462c5ca-e629-4985-b689-da480a2ae738');
+		target.classList.add('p-target-marker')
 
 		target.addEventListener('click', function (e) {
 			var img=e.target,d,h,ws,i,l,ow,oh;
 			if(!img.classList.contains('image-popup-art')){
-				while(!img.classList.contains('p-8462c5ca-e629-4985-b689-da480a2ae738'))img=img.parentElement;
+				while(!img.classList.contains('p-target-marker'))img=img.parentElement;
 				img=img.querySelector('img.image-popup-art');
 			}
 			d=img.dataset;h=JSON.parse(d.imagePopupArtHs.replaceAll("'",'"'));

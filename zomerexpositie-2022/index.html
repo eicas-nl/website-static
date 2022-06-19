@@ -203,12 +203,12 @@ ms.forEach(function(li){li.querySelector(':scope>label').addEventListener('click
 			}
 		}
 		const target = findTarget(img)
-		target.classList.add('p-ce545077-8181-4fbe-a825-41a229174242');
+		target.classList.add('p-target-marker')
 
 		target.addEventListener('click', function (e) {
 			var img=e.target,d,h,ws,i,l,ow,oh;
 			if(!img.classList.contains('image-popup-art')){
-				while(!img.classList.contains('p-ce545077-8181-4fbe-a825-41a229174242'))img=img.parentElement;
+				while(!img.classList.contains('p-target-marker'))img=img.parentElement;
 				img=img.querySelector('img.image-popup-art');
 			}
 			d=img.dataset;h=JSON.parse(d.imagePopupArtHs.replaceAll("'",'"'));
