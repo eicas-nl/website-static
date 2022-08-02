@@ -15,8 +15,8 @@ for page in oekraine-klankruimtes fred-wagemans-artistiek-directeur opening-eica
 done
 
 source .env
-#wget -r -nH --cut-dirs=1 --user=$USER --password=$PASS --no-check-certificate --reject $(find img | tr \\n ,)  ftps://eicas.nl/public/img
-#git add img
+wget -r -nH --cut-dirs=1 --user=$USER --password=$PASS --no-check-certificate --reject $(find img | tr \\n ,)  ftps://eicas.nl/public/img
+git add img
 
 curl -k https://$FROM | sed -e "s/$FROM/www.eicas.nl/g" > index.html
 git add index.html
