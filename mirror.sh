@@ -14,9 +14,10 @@ for page in takanori-suzuki oekraine-klankruimtes fred-wagemans-artistiek-direct
     git add $page/index.html
 done
 
-source .env
-wget -r -nH --cut-dirs=1 --user=$USER --password=$PASS --no-check-certificate --reject $(find img | tr \\n ,) ftps://eicas.nl/public/img
-git add img
+# currently doesn't seem to work, see https://cloud.eicas.nl/apps/deck/#/board/11/card/460
+#source .env
+#wget -r -nH --cut-dirs=1 --user=$USER --password=$PASS --no-check-certificate --reject $(find img | tr \\n ,) ftps://eicas.nl/public/img
+#git add img
 
 curl -k https://$FROM | sed -e "s/$FROM/www.eicas.nl/g" > index.html
 git add index.html
