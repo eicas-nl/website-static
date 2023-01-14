@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>EICAS - Matter over Mind</title>
-		<meta name="description" content="Vanaf 27 mei: Matter over Mind. Een groepstentoonstelling die het werk van vier Nederlandse kunstenaars samenbrengt: Ide André, Akmar, Roos Vogels en Bas van der Wal.">
+		<meta name="description" content="Groepstentoonstelling midden 2022: Matter over Mind. Deze toonde het werk van 4 Nederlandse kunstenaars: Ide André, Akmar, Roos Vogels en Bas van der Wal.">
 		<link rel="canonical" href="https://www.eicas.nl/matter-over-mind">
 		<link rel="stylesheet" href="/css/guest.css?id=7807a22284e9b3c5c648" type="text/css" media="screen">
 		<link rel="icon" href="/favicon.ico" sizes="any">
@@ -16,7 +16,7 @@
 		<meta name="twitter:creator" content="@MuseumEICAS">
 
 		<meta property="og:title" content="EICAS - Matter over Mind">
-		<meta property="og:description" content="Vanaf 27 mei: Matter over Mind. Een groepstentoonstelling die het werk van vier Nederlandse kunstenaars samenbrengt: Ide André, Akmar, Roos Vogels en Bas van der Wal.">
+		<meta property="og:description" content="Groepstentoonstelling midden 2022: Matter over Mind. Deze toonde het werk van 4 Nederlandse kunstenaars: Ide André, Akmar, Roos Vogels en Bas van der Wal.">
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://www.eicas.nl/matter-over-mind">
 		<meta property="og:image" content="https://www.eicas.nl/img/images/2022/06/19/148/matter-over-mind.jpg">
@@ -178,10 +178,7 @@ function handle(li){var nc=[li.id],p=li;while(p=par(p)){nc.push(p.id)}closeExcep
 function closeExcept(nc){ms.forEach(function(li){if(nc.includes(li.id)){return;}li.querySelector(':scope>input[type=checkbox]').checked=false;});}
 ms.forEach(function(li){li.querySelector(':scope>label').addEventListener('click',function(e){handle(e.target.parentElement);});});
 })();</script>
-
-<script>if(!String.prototype.replaceAll){String.prototype.replaceAll=function(str, newStr){if(Object.prototype.toString.call(str).toLowerCase()==='[object regexp]'){return this.replace(str,newStr);}return this.replace(new RegExp(str,'g'),newStr);};}</script>
-
-<script>(function(){Array.from(document.getElementsByClassName('image-preview')).forEach(function(p){var w=p.parentElement.clientWidth,h=JSON.parse(p.dataset.imageHs.replaceAll("'",'"')),ws=Object.keys(h).sort(function(a,b){return a-b}),i,l=ws.length,ow,oh;for(i=0;i<l;i++){ow=ws[i];oh=h[ow];if(w<ow){i=l+1}}p.src=p.dataset.imagePt.replace('%w',ow).replace('%h',oh);});})();</script>
+<script src="/js/image.js"></script>
 <script>
 (function () {
 	const p = document.getElementById('popup-art');
