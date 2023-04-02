@@ -16,10 +16,17 @@ done
 
 for i in app.js image.js; do
     curl -k https://$FROM/js/$i | sed -e "s/$FROM/www.eicas.nl/g" > js/$i
+    git add js/$i
 done
 
 for i in logo-eicas.png; do
     curl -k https://$FROM/img/$i > img/$i
+    git add img/$i
+done
+
+for i in favicon.ico; do
+    curl -k https://$FROM/$i > $i
+    git add $i
 done
 
 # currently doesn't seem to work, see https://cloud.eicas.nl/apps/deck/#/board/11/card/460
