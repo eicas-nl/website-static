@@ -24,7 +24,7 @@ for i in logo-eicas.png; do
     git add img/$i
 done
 
-for i in favicon.ico; do
+for i in favicon.ico icon.svg; do
     curl -k https://$FROM/$i > $i
     git add $i
 done
