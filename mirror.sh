@@ -29,7 +29,6 @@ for i in favicon.ico icon.svg; do
     git add $i
 done
 
-# currently doesn't seem to work, see https://cloud.eicas.nl/apps/deck/#/board/11/card/460
 source .env
 wget --level=inf -r -nH --cut-dirs=1 --user=$USER --password=$PASS --no-check-certificate --reject $(find img -type f | sed -e "s/.*\///" | tr "\\n" , | head -c-1) -4 ftps://$FROM/public/img/
 git add img
